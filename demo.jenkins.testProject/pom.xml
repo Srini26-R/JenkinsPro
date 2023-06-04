@@ -5,7 +5,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 
 	<properties>
-		<suiteXmlFile>\6_Jenkins_Workspace\demo.jenkins.testProject\src\test\java\testngXml\runTests.xml</suiteXmlFile>
+		<suiteXmlFile>\demo.jenkins.testProject\src\test\java\testngXml\runTests.xml</suiteXmlFile>
 	</properties>
 
 	<dependencies>
