@@ -4,9 +4,9 @@
 	<artifactId>demo.jenkins.testProject</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
-	<properties>
+	<!-- <properties>
 		<suiteXmlFile>\src\test\java\testngXml\runTests.xml</suiteXmlFile>
-	</properties>
+	</properties> -->
 
 	<dependencies>
 
@@ -49,7 +49,8 @@
 				<version>2.17</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+						<!-- <suiteXmlFile>${suiteXmlFile}</suiteXmlFile> -->
+						<suiteXmlFile>runTests.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

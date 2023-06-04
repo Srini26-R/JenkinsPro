@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Jenkins Demo Suite">
+	<test name="Jenkins Test">
+		<classes>
+			<class name="jenkinsPack.LoginTestClass"></class>
+		</classes>
+	</test>
+</suite>
